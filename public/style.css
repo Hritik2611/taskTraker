@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    background-color: #2c3c4de5;
+    padding: 15px;
+    margin: auto;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: large;
+
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #31475c;
+}
+hr{
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-form{
+     background: #fff;
+     padding: 30px;
+     margin: 30px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+     max-width: 100%;
+     width: 400px;
+     display: flex;
+     flex-direction: column;     align-items: center;   
+
+}
+
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea.input{
+    min-height: 100px;
+    resize: vertical;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    background: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.btn:hover{
+    background-color: #283b4ee4;
+}
+
+.task-list{
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.task-item{
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-left: 5px solid #4caf50;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+}
+
+.task-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.task-description{
+    color: #666;
+}
+
+.delete-item{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #ff0000e9;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.delete-item:hover{
+    background-color: #dc0e0ed3;
+}
+
+.update-item{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #4dff4d;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.update-item:hover{
+    background-color: #3ce93ce7;
+}
+
+.checkbox{
+     width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #007bff;
+    margin-left: 36px;
+}
